@@ -200,7 +200,7 @@ namespace ShoeShop.Service
 
                 return new GetAllOrderRESPONSE()
                 {
-                    Code = ResStatusCode.NotFoundOrder,
+                    Code = ResStatusCode.Success,
                     listOrder = new List<OrderRESPONSE>()
                 };
             }
