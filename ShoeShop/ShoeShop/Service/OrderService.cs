@@ -200,8 +200,8 @@ namespace ShoeShop.Service
 
                 return new GetAllOrderRESPONSE()
                 {
-                    Code = ResStatusCode.InternalServerError,
-                    listOrder = null
+                    Code = ResStatusCode.NotFoundOrder,
+                    listOrder = new List<OrderRESPONSE>()
                 };
             }
             catch (Exception ex)

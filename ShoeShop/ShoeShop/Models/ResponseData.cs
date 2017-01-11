@@ -28,6 +28,7 @@ namespace ShoeShop.Models
         AddItemFail = 501,
         NotFoundItem = 502,
         NotEnoughItem = 503,
+        NotFoundOrder = 504,
         BadRequest = 400,
 
 
