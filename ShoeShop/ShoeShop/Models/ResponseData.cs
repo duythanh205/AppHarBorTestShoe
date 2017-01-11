@@ -23,12 +23,11 @@ namespace ShoeShop.Models
     {
         Success = 200,
         AddItemSuccess = 201,
-
+        NotFoundOrder = 202,
         InternalServerError = 500,
         AddItemFail = 501,
         NotFoundItem = 502,
         NotEnoughItem = 503,
-        NotFoundOrder = 504,
         BadRequest = 400,
 
 
